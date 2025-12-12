@@ -1,0 +1,13 @@
+/* client/src/assets/styles/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Completely hide scrollbar across all browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
